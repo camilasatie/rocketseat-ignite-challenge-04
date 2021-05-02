@@ -18,6 +18,7 @@ export function Banner() {
       >
         <div>
           <Heading
+            as='h1'
             color='gray.50'
             fontSize={['1.25rem', '2.25rem']}
             fontWeight='500'
