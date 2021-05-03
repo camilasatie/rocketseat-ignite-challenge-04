@@ -10,8 +10,6 @@ import { TravelTypes } from '../components/TravelTypes';
 import { continents } from './data';
 
 export default function Home({ continents }) {
-  console.log(continents)
-
   return (
     <div>
       <Head />
