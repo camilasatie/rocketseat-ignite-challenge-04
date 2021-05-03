@@ -1,4 +1,5 @@
-import { Container, Flex, Heading, Text, VStack } from '@chakra-ui/react';
+import Link from 'next/link';
+import { Container, Heading, Text, VStack } from '@chakra-ui/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
   Navigation,
@@ -48,21 +49,25 @@ export function ContinentSlide({ continents }) {
               width='100%'
               height='450px'
             >
-              <Heading 
-                as='h2'
-                color='gray.100'
-                fontSize={['1.5rem', '3rem']}
-              >
-                {continent.name}
-              </Heading>
-              <Heading
-                as='h3'
-                color='gray.100'
-                fontSize={['0.875rem', '1.5rem']}
-                mt='16px'
-              >
-                {continent.callToActionMessage}
-              </Heading>
+              <Link href={`/continents/${continent.id}`}>
+                <a>
+                  <Heading 
+                    as='h2'
+                    color='gray.100'
+                    fontSize={['1.5rem', '3rem']}
+                  >
+                    {continent.name}
+                  </Heading>
+                  <Heading
+                    as='h3'
+                    color='gray.100'
+                    fontSize={['0.875rem', '1.5rem']}
+                    mt='16px'
+                  >
+                    {continent.callToActionMessage}
+                  </Heading>
+                </a>
+              </Link>
             </VStack>
           </SwiperSlide>
         ))
