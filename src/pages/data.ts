@@ -3,7 +3,48 @@ export const continents = [
     id: 'africa',
     name: 'África',
     callToActionImage: '/images/continents/africa/cta.jpg',
-    callToActionMessage: 'O continente multicultural.'
+    callToActionMessage: 'O continente multicultural.',
+    description: 'A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005[1]), representando cerca de um sétimo da população mundial, e 54 países independentes. ',
+    countriesNumber: 54,
+    languagesNumber: 3000,
+    citiesNumber: 24,
+    cities: [
+      {
+        id: 'cidadeDoCabo',
+        city: 'Cidade do Cabo',
+        country: 'África do Sul',
+        flag: 'za',
+        image: '/images/continents/africa/cape-town.jpg'
+      },
+      {
+        id: 'cairo',
+        city: 'Cairo',
+        country: 'Egite',
+        flag: 'eg',
+        image: '/images/continents/africa/cairo.jpg'
+      },
+      {
+        id: 'durban',
+        city: 'Durban',
+        country: 'África do Sul',
+        flag: 'za',
+        image: '/images/continents/africa/durban.jpg'
+      },
+      {
+        id: 'luanda',
+        city: 'Luanda',
+        country: 'Angola',
+        flag: 'ao',
+        image: '/images/continents/africa/luanda.jpg'
+      },
+      {
+        id: 'nairobi',
+        city: 'Nairobi',
+        country: 'Quênia',
+        flag: 'ke',
+        image: '/images/continents/africa/nairobi.jpg'
+      },
+    ]
   },
   {
     id: 'asia',
@@ -103,13 +144,95 @@ export const continents = [
     id: 'america-do-norte',
     name: 'América do Norte',
     callToActionImage: '/images/continents/north-america/cta.jpg',
-    callToActionMessage: 'O continente das oportunidades.'
+    callToActionMessage: 'O continente das oportunidades.',
+    description: 'A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite no Istmo do Panamá (umas vezes no Canal do Panamá, outras na fronteira entre o Panamá e a Colômbia).',
+    countriesNumber: 3,
+    languagesNumber: 6,
+    citiesNumber: 24,
+    cities: [
+      {
+        id: 'cozumel',
+        city: 'Cozumel',
+        country: 'México',
+        flag: 'mx',
+        image: '/images/continents/north-america/cozumel.jpg'
+      },
+      {
+        id: 'havai',
+        city: 'Havaí',
+        country: 'Estados Unidos',
+        flag: 'us',
+        image: '/images/continents/north-america/hawaii.jpg'
+      },
+      {
+        id: 'newYork',
+        city: 'New York',
+        country: 'Estados Unidos',
+        flag: 'us',
+        image: '/images/continents/north-america/new-york.jpg'
+      },
+      {
+        id: 'toronto',
+        city: 'Toronto',
+        country: 'Canadá',
+        flag: 'ca',
+        image: '/images/continents/north-america/toronto.jpg'
+      },
+      {
+        id: 'vancouver',
+        city: 'Vancouver',
+        country: 'Canadá',
+        flag: 'ca',
+        image: '/images/continents/north-america/vancouver.jpg'
+      },
+    ]
   },
   {
     id: 'oceania',
     name: 'Oceania',
     callToActionImage: '/images/continents/oceania/cta.jpg',
-    callToActionMessage: 'O menor continente do mundo.'
+    callToActionMessage: 'O menor continente do mundo.',
+    description: 'Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d`Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.',
+    countriesNumber: 16,
+    languagesNumber: 18,
+    citiesNumber: 24,
+    cities: [
+      {
+        id: 'auckland',
+        city: 'Auckland',
+        country: 'Nova Zelândia',
+        flag: 'nz',
+        image: '/images/continents/oceania/auckland.jpg'
+      },
+      {
+        id: 'brisbane',
+        city: 'Brisbane',
+        country: 'Austrália',
+        flag: 'au',
+        image: '/images/continents/oceania/brisbane.jpg'
+      },
+      {
+        id: 'melbourne',
+        city: 'Melbourne',
+        country: 'Austrália',
+        flag: 'au',
+        image: '/images/continents/oceania/melbourne.jpg'
+      },
+      {
+        id: 'sidney',
+        city: 'Sidney',
+        country: 'Austrália',
+        flag: 'au',
+        image: '/images/continents/oceania/sidney.jpg'
+      },
+      {
+        id: 'wellington',
+        city: 'Wellington',
+        country: 'Nova Zelândia',
+        flag: 'nz',
+        image: '/images/continents/oceania/wellington.jpg'
+      },
+    ]
   },
   {
     id: 'america-do-sul',
