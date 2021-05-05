@@ -41,7 +41,7 @@ export default function ContinentsPage({ continent }) {
             <Numbers number={continent.languagesNumber} label='línguas' />
             <Numbers 
               number={continent.citiesNumber} 
-              label='línguas' 
+              label='cidades +100' 
               icon={<Icon as={IoMdInformationCircleOutline} color="gray.400" fontSize='1.125rem' margin='5px'/>}
             />
           </Flex>

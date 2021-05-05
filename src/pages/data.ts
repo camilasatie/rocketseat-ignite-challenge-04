@@ -9,7 +9,48 @@ export const continents = [
     id: 'asia',
     name: 'Ásia',
     callToActionImage: '/images/continents/asia/cta.jpg',
-    callToActionMessage: 'O maior continente do mundo.'
+    callToActionMessage: 'O maior continente do mundo.',
+    description: 'A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.',
+    countriesNumber: 49,
+    languagesNumber: 2.301,
+    citiesNumber: 24,
+    cities: [
+      {
+        id: 'bangkok',
+        city: 'Bangkok',
+        country: 'Tailândia',
+        flag: 'th',
+        image: '/images/continents/asia/bangkok.jpg'
+      },
+      {
+        id: 'hongKong',
+        city: 'Hong Kong',
+        country: 'China',
+        flag: 'cn',
+        image: '/images/continents/asia/hong-kong.jpg'
+      },
+      {
+        id: 'newDelhi',
+        city: 'New Delhi',
+        country: 'Índia',
+        flag: 'in',
+        image: '/images/continents/asia/newdelhi.jpg'
+      },
+      {
+        id: 'seoul',
+        city: 'Seoul',
+        country: 'Coréia do Sul',
+        flag: 'kr',
+        image: '/images/continents/asia/seoul.jpg'
+      },
+      {
+        id: 'tokyo',
+        city: 'Tokyo',
+        country: 'Japão',
+        flag: 'jp',
+        image: '/images/continents/asia/tokyo.jpg'
+      },
+    ]
   },
   {
     id: 'europa',
@@ -74,6 +115,47 @@ export const continents = [
     id: 'america-do-sul',
     name: 'América do Sul',
     callToActionImage: '/images/continents/south-america/cta.jpg',
-    callToActionMessage: 'Rico na diversidade de clima e relevo.'
+    callToActionMessage: 'Rico na diversidade de clima e relevo.',
+    description: 'A América do Sul é um continente[2][3] que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano.[4][5] A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial. Une-se à América Central a norte pelo istmo do Panamá e se separa da Antártida ao sul pelo estreito de Drake.',
+    countriesNumber: 12,
+    languagesNumber: 8,
+    citiesNumber: 24,
+    cities: [
+      {
+        id: 'buenosAires',
+        city: 'Buenos Aires',
+        country: 'Argentina',
+        flag: 'ar',
+        image: '/images/continents/south-america/buenos-aires.jpg'
+      },
+      {
+        id: 'machuPichu',
+        city: 'Machu Pichu',
+        country: 'Peru',
+        flag: 'pe',
+        image: '/images/continents/south-america/machu-pichu.jpg'
+      },
+      {
+        id: 'rioDeJaneiro',
+        city: 'Rio de Janeiro',
+        country: 'Brasil',
+        flag: 'br',
+        image: '/images/continents/south-america/rio-de-janeiro.jpg'
+      },
+      {
+        id: 'sanAndres',
+        city: 'San Andres',
+        country: 'Colômbia',
+        flag: 'co',
+        image: '/images/continents/south-america/san-andres.jpg'
+      },
+      {
+        id: 'saoPaulo',
+        city: 'São Paulo',
+        country: 'Brasil',
+        flag: 'br',
+        image: '/images/continents/south-america/sao-paulo.jpg'
+      },
+    ]
   }
 ];
