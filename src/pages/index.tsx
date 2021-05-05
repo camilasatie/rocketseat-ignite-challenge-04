@@ -9,7 +9,13 @@ import { TravelTypes } from '../components/TravelTypes';
 
 import { continents } from './data';
 
-export default function Home({ continents }) {
+import { continentsProps } from './types';
+
+interface HomeProps {
+  continents: continentsProps;
+}
+
+export default function Home({ continents }: HomeProps) {
   return (
     <div>
       <Head />

@@ -9,9 +9,14 @@ import { InternalBanner } from './components/InternalBanner';
 import { Card } from './components/Card';
 import { Numbers } from './components/Numbers';
 
-import { IoMdInformationCircleOutline } from "react-icons/io";
+import { continentsProps } from '../types';
 
-export default function ContinentsPage({ continent }) {
+import { IoMdInformationCircleOutline } from "react-icons/io";
+interface ContinentsPageProps {
+  continent: continentsProps;
+}
+
+export default function ContinentsPage({ continent }: ContinentsPageProps) {
   return (
     <>
       <Head />
