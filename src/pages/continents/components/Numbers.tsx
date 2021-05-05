@@ -1,13 +1,15 @@
 import { Text, VStack } from "@chakra-ui/layout";
+import { Tooltip } from "@chakra-ui/tooltip";
 import { ReactElement } from "react";
 
 interface NumbersProps {
   number: number;
   label: string;
   icon?: ReactElement;
+  moreCities?: string;
 }
 
-export function Numbers({ number, label, icon }: NumbersProps) {
+export function Numbers({ number, label, icon, moreCities }: NumbersProps) {
   return (
     <VStack>
       <Text
@@ -24,7 +26,9 @@ export function Numbers({ number, label, icon }: NumbersProps) {
         lineHeight='1'
       >
         { label }
-        { !!icon && icon }
+        <Tooltip label={moreCities} aria-label="A tooltip">
+          <span>{ !!icon && icon }</span>
+        </Tooltip>
       </Text>
     </VStack>
   )

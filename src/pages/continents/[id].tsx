@@ -43,6 +43,7 @@ export default function ContinentsPage({ continent }) {
               number={continent.citiesNumber} 
               label='cidades +100' 
               icon={<Icon as={IoMdInformationCircleOutline} color="gray.400" fontSize='1.125rem' margin='5px'/>}
+              moreCities={continent.moreCities}
             />
           </Flex>
         </SimpleGrid>

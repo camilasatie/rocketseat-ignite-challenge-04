@@ -8,6 +8,7 @@ export const continents = [
     countriesNumber: 54,
     languagesNumber: 3000,
     citiesNumber: 24,
+    moreCities: 'Lagos, Cairo, Kinshasa, Nairobi...',
     cities: [
       {
         id: 'cidadeDoCabo',
@@ -55,6 +56,7 @@ export const continents = [
     countriesNumber: 49,
     languagesNumber: 2.301,
     citiesNumber: 24,
+    moreCities: 'Tokyo, Osaka, Nagano, Seoul, Taipei...',
     cities: [
       {
         id: 'bangkok',
@@ -102,6 +104,7 @@ export const continents = [
     countriesNumber: 50,
     languagesNumber: 60,
     citiesNumber: 24,
+    moreCities: 'Paris, Berlin, Versalhes...',
     cities: [
       {
         id: 'londres',
@@ -149,6 +152,7 @@ export const continents = [
     countriesNumber: 3,
     languagesNumber: 6,
     citiesNumber: 24,
+    moreCities: 'Los Angeles, Vancouver, Miami, Texas, San Diego...',
     cities: [
       {
         id: 'cozumel',
@@ -196,6 +200,7 @@ export const continents = [
     countriesNumber: 16,
     languagesNumber: 18,
     citiesNumber: 24,
+    moreCities: 'Auckland, Sidney, Brisabne...',
     cities: [
       {
         id: 'auckland',
